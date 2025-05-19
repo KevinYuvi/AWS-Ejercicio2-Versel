@@ -2,29 +2,54 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f8f8f8;
   margin: 0;
-  padding: 20px;
+  padding: 0;
+}
+
+.header {
+  background-color: #007bff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.header ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header a:hover {
+  color: #ffe600;
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: auto;
   text-align: center;
+  padding: 2rem;
 }
 
 .grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1.5rem;
-  margin-top: 2rem;
+  gap: 2rem;
 }
 
 .card {
-  background: bisque;
-  border-radius: 10px;
+  background-color: white;
   padding: 1rem;
+  border-radius: 10px;
   width: 200px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .card img {
@@ -35,23 +60,77 @@ body {
 }
 
 .card h3 {
-  margin: 10px 0 5px;
+  margin: 0.5rem 0;
 }
 
 .card button {
   background-color: #007bff;
   color: white;
+  padding: 0.5rem;
   border: none;
-  padding: 8px 12px;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .card button:hover {
   background-color: purple;
+}
+
+.footer {
+  background-color: #111;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-social h3,
+.footer-form h3 {
+  font-size: 1.5rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.8rem;
+}
+
+.social-icons a {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #00aaff;
+}
+
+.footer-form input,
+.footer-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.footer-form button {
+  margin-top: 1rem;
+  background-color: #00aaff;
   color: white;
   border: none;
-  padding: 8px 12px;
+  padding: 0.75rem 1.5rem;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.footer-form button:hover {
+  background-color: #007acc;
 }
