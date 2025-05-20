@@ -6,10 +6,10 @@ function Header() {
     <header className="header">
       <nav>
         <ul>
-          <li><a href="#">Inicio</a></li>
+          <li><a href="http://3.218.233.15:777/">Inicio</a></li>
           <li><a href="https://herokud1-03800266aff2.herokuapp.com/">Lácteos</a></li>
-          <li><a href="#carnes">Carnes y Bebidas</a></li>
-          <li><a href="#limpieza">Limpieza</a></li>
+          <li><a href="http://146.190.160.148:999/">Carnes y Bebidas</a></li>
+          <li><a href="https://ejercicio2-railway.up.railway.app/">Limpieza</a></li>
         </ul>
       </nav>
     </header>
