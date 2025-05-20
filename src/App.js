@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './Header';
-import Footer from './Footer';
 import BebidaCard from './BebidaCard';
 import bebidas from './data';
 import './styles.css';
@@ -17,7 +16,6 @@ function App() {
           ))}
         </div>
       </main>
-      <Footer />
     </div>
   );
 }
